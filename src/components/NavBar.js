@@ -47,11 +47,9 @@ export const NavBar = () => {
             <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
             <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
             <Nav.Link className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'}>
-              <a
-                href="https://raw.githubusercontent.com/miodrag4/mile.stosic/main/public/Resume_Miodrag_Stosic.pdf"
+              <a href="https://raw.githubusercontent.com/miodrag4/mile.stosic/main/public/Resume_Miodrag_Stosic.pdf"
                 download="Resume_Miodrag_Stosic.pdf"
-                style={{ color: '#FFFFFF', textDecoration: 'none' }}
-              >
+                style={{ color: '#FFFFFF', textDecoration: 'none' }}>
                 Resume
               </a>
             </Nav.Link>

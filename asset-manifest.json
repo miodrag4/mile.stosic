@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mile.stosic/static/css/main.346e0c01.css",
-    "main.js": "/mile.stosic/static/js/main.90455976.js",
+    "main.js": "/mile.stosic/static/js/main.c169e1e7.js",
     "static/media/project-img1.png": "/mile.stosic/static/media/project-img1.600a04112a0a9b822154.png",
     "static/media/adain.png": "/mile.stosic/static/media/adain.c4586029be095425af64.png",
     "static/media/hack.png": "/mile.stosic/static/media/hack.83f74659d3da98487976.png",
@@ -28,10 +28,10 @@
     "static/media/nav-icon1.svg": "/mile.stosic/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/nav-icon2.svg": "/mile.stosic/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.346e0c01.css.map": "/mile.stosic/static/css/main.346e0c01.css.map",
-    "main.90455976.js.map": "/mile.stosic/static/js/main.90455976.js.map"
+    "main.c169e1e7.js.map": "/mile.stosic/static/js/main.c169e1e7.js.map"
   },
   "entrypoints": [
     "static/css/main.346e0c01.css",
-    "static/js/main.90455976.js"
+    "static/js/main.c169e1e7.js"
   ]
 }

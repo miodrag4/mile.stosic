@@ -34,7 +34,7 @@ export const NavBar = () => {
   return (
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container>
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="#home">
           <img src={headshot} alt="Logo" className="headshot" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
@@ -46,12 +46,13 @@ export const NavBar = () => {
             <Nav.Link href="#about" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about')}>AboutMe</Nav.Link>
             <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
             <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
-            <Nav.Link className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'}>
-              <a href="https://raw.githubusercontent.com/miodrag4/mile.stosic/main/public/Resume_Miodrag_Stosic.pdf"
+            <Nav.Link href="https://raw.githubusercontent.com/miodrag4/mile.stosic/main/public/Resume_Miodrag_Stosic.pdf"
+                download="Resume_Miodrag_Stosic.pdf" className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'}>
+              <button href="https://raw.githubusercontent.com/miodrag4/mile.stosic/main/public/Resume_Miodrag_Stosic.pdf"
                 download="Resume_Miodrag_Stosic.pdf"
                 style={{ color: '#FFFFFF', textDecoration: 'none' }}>
                 Resume
-              </a>
+              </button>
             </Nav.Link>
           </Nav>
           <span className="navbar-text">

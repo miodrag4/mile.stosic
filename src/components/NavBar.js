@@ -31,14 +31,6 @@ export const NavBar = () => {
     setActiveLink(value);
   }
 
-  const saveFile = () => {
-    // This assumes that you are running this in development mode and the file is available in the public directory.
-    fileSaver.saveAs(
-      "/Resume_Miodrag_Stosic.pdf",
-      "Resume_Miodrag_Stosic.pdf"
-    );
-  };
-
   return (
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container>
@@ -55,9 +47,13 @@ export const NavBar = () => {
             <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
             <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
             <Nav.Link className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'}>
-              <button style={{ color: '#FFFFFF' }} onClick={saveFile}>
-                  Resume
-              </button>
+              <a
+                href="https://miodrag4.github.io/mile.stosic/Resume_Miodrag_Stosic.pdf"
+                download="Resume_Miodrag_Stosic.pdf"
+                style={{ color: '#FFFFFF', textDecoration: 'none' }}
+              >
+                Resume
+              </a>
             </Nav.Link>
           </Nav>
           <span className="navbar-text">

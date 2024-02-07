@@ -1,4 +1,4 @@
-#Hi!
+# Hi!
 This directroy contains the code and assets to my own personal website which acts as my protfolio. I have hosted my website through github pages at the URL https://miodrag4.github.io/mile.stosic/, check it out!
 
 #Technical

@@ -1,3 +1,33 @@
+# Hi!
+This directroy contains the code and assets to my own personal website which acts as my protfolio. I have hosted my website through github pages at the URL https://miodrag4.github.io/mile.stosic/, check it out!
+
+# Technical
+The website was built using react.js, HTML, css, and node.js.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

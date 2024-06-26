@@ -57,7 +57,7 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="https://www.linkedin.com/in/mile-stosic-b07856209/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/miodrag-stosic-b07856209/" target="_blank" rel="noopener noreferrer">
                 <img src={navIcon1} alt="LinkedIn" />
               </a>
               <a href="https://www.facebook.com/mile.stosic.948" target="_blank" rel="noopener noreferrer">

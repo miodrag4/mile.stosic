@@ -57,8 +57,7 @@ export const Banner = () => {
                 <div className="text-background"> {/* Add this line */}
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>{`Hi! I'm Mile,`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Computer Engineer!" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I am a Fourth Year Computer Engineering student at Queen’s University, I bring a versatile skill set and a passion for technology 
-                    and innovation, with a keen interest in the financial sector. Proactive and collaborative, I am eager to explore opportunities that will allow me to continue my professional career.</p>
+                  <p>Hello, I am Miodrag (Mile) Stosic, a recent graduate from Queen’s University with a bachelor’s degree in Applied Science, specializing in Computer Engineering. Throughout my studies, I have developed a diverse skill set that includes computer science, data science, design, innovation, communications, and professional practice. I am now eager to strengthen and broaden my skills and work experience in a professional setting.</p>
                 </div> {/* Close the div here */}
               </div>}
           </TrackVisibility>

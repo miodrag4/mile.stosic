@@ -32,7 +32,18 @@ export const Aboutme = () => {
                 <div className="col-12">
                     <div className="about-bx wow zoomIn">
                         <h2>About Me</h2>
-                        <p> Hello! I'm Miodrag Stosic, a diligent Fourth Year Computer Engineering student at Queen’s University, where my academics intersect with my passion for technology and innovation, especially within the financial sector. My forte lies in creating robust algorithmic solutions and harnessing data analytics, thanks to my proficiency in languages like Python and Java. I thrive on tackling complex challenges, translating intricate problems into meaningful insights and actionable results. Beyond the classroom, I've honed my skills as a Software Developer for Queen’s Algorithmic Network & Trading Team, enhancing trading algorithms and accuracy with meticulous data analysis. As a Propulsion Design Engineer on the Queen’s Hyperloop Design Team, I've contributed significantly to the development and performance improvement of propulsion systems. I'm also deeply involved in a range of projects, from early cancer detection systems using machine learning to developing a phishing email detection model with an impressive accuracy rate. These projects reflect not only my technical capabilities but also my commitment to applying knowledge for impactful solutions. As I navigate through the final lap of my undergraduate journey, I'm on the lookout for opportunities that resonate with my drive for innovation and collaborative spirit. If you're interested in learning more about my work or delving into the technicalities, feel free to explore my projects on GitHub or reach out through my contact page.</p>
+                        <p>
+                          I am Miodrag Stosic, a Computer Engineering graduate from Queen’s University with a strong passion for technology and innovation. My expertise lies in algorithmic solutions and data analytics, with proficiency in Python, Java, and SQL.
+                        </p>
+                        <p>
+                          As a Software Developer with Queen’s Algorithmic Network & Trading Team, I enhanced trading algorithms, improving execution speed by 15% and accuracy by 20%. In my role as a Propulsion Design Engineer for the Queen’s Hyperloop Design Team, I led the design and testing of a propulsion sub-system, resulting in a 12% performance boost. Additionally, as a Data Analyst at Custom Biologics, I managed and analyzed complex datasets to support bioanalytical studies.
+                        </p>
+                        <p>
+                          I have successfully developed projects like an award-winning early detection system for ovarian cancer and a neural network model for phishing email detection, achieving a high accuracy rate. My technical skills include Google Data Analytics, Git, HTML, CSS, PowerBI, Tableau, TensorFlow, and LookerStudio.
+                        </p>
+                        <p>
+                          Beyond work, I enjoy Catan, music, FPS games, boxing, running, festivals, investing, cryptocurrency, traveling, hiking, and reading. Explore my portfolio to see more about my work and projects. Let's connect and create something amazing together!
+                        </p>
                     </div>
                 </div>
                 <section className="about" id="about-me">
